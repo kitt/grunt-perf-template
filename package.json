@@ -1,0 +1,22 @@
+{
+  "name": "Fluent2015",
+  "version": "v0.1.0",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitt/grunt-perf-template.git"
+  },
+  "author": "Kitt Hodsden",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.4.1",
+    "grunt-cssstats": "^1.0.1",
+    "grunt-devperf": "^0.2.13",
+    "grunt-perfbudget": "^0.1.6",
+    "grunt-wpt": "^3.1.1",
+    "matchdep": "^0.3.0"
+  }
+}
