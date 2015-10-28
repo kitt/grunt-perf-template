@@ -1,5 +1,5 @@
 {
-  "name": "Fluent2015",
+  "name": "gruntperftemplate",
   "version": "v0.1.0",
   "main": "Gruntfile.js",
   "dependencies": {
@@ -17,6 +17,6 @@
     "grunt-devperf": "^0.2.13",
     "grunt-perfbudget": "^0.1.6",
     "grunt-wpt": "^3.1.1",
-    "matchdep": "^0.3.0"
+    "load-grunt-tasks": "^3.3.0"
   }
 }

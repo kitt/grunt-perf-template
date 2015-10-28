@@ -1,6 +1,9 @@
 /*global module:false*/
 module.exports = function(grunt) {
 
+  // load grunt tasks matching ['grunt-*', '@*/grunt-*'] patterns
+  require('load-grunt-tasks')(grunt);
+
   // Project configuration.
   grunt.initConfig({
     cssstats: {
@@ -64,9 +67,6 @@ module.exports = function(grunt) {
       }
     }
   });
-
-  // Load Plugins.
-  require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
   // Default task that is run when no arguments are passed.
   grunt.registerTask('default', ['perfbudget']);
